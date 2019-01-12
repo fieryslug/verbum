@@ -27,6 +27,5 @@ public class BiomeVolcanicRavines extends Biome {
     public void genTerrainBlocks(World worldIn, Random rand, ChunkPrimer chunkPrimerIn, int x, int z, double noiseVal) {
         super.genTerrainBlocks(worldIn, rand, chunkPrimerIn, x, z, noiseVal);
 
-
     }
 }
