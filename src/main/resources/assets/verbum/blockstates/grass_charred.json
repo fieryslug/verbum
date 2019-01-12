@@ -1,0 +1,12 @@
+{
+	"variants": 
+	{
+		"normal": 
+		 [
+			{"model": "verbum:grass_charred"},
+			{"model": "verbum:grass_charred", "y": 90},
+			{"model": "verbum:grass_charred", "y": 180},
+			{"model": "verbum:grass_charred", "y": 270}
+		 ]
+	}
+}

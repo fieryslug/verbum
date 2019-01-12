@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients":
+	[
+		{
+			"item": "verbum:block_magic_steel"
+		}
+	],
+	"result":
+	{
+		"item": "verbum:ingot_magic_steel",
+		"count": 9
+	}
+}

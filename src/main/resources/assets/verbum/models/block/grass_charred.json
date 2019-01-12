@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+	"bottom": "verbum:blocks/grass_charred_bottom",
+        "top": "verbum:blocks/grass_charred_top",
+        "side": "verbum:blocks/grass_charred_side"
+    }
+}

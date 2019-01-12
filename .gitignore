@@ -1,0 +1,28 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+classes
+forge-1.12.2-14.23.5.2768-changelog.txt
+LICENSE-Paulscode*
+LICENSE.txt
+README.txt
+CREDITS.txt

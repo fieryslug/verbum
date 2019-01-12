@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "verbum:items/axe_magic_steel"
+	}
+}

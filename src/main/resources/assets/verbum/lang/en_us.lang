@@ -1,0 +1,24 @@
+itemGroup.verbum=Verbum
+
+item.ingot_magic_steel.name=Magic Steel Ingot
+item.crystal_precantate.name=Precantate Crystal
+
+item.sword_magic_steel.name=Magic Steel Sword
+item.axe_magic_steel.name=Magic Steel Axe
+item.pickaxe_magic_steel.name=Magic Steel Pickaxe
+item.shovel_magic_steel.name=Magic Steel Shovel
+item.hoe_magic_steel.name=Magic Steel Hoe
+
+item.helm_magic_steel.name=Magic Steel Helm
+item.chestplate_magic_steel.name=Magic Steel Chestplate
+item.leggings_magic_steel.name=Magic Steel Leggings
+item.boots_magic_steel.name=Magic Steel Boots
+
+item.ancient_tablet.name=Ancient Tablet
+item.ancient_tablet_damp.name=Damp Ancient Tablet
+item.ancient_tablet_parched.name=Parched Ancient Tablet
+
+tile.block_magic_steel.name=Magic Steel Block
+tile.ore_precantate.name=Precantate Ore
+tile.grass_charred.name=Charred Grass
+tile.basalt.name=Basalt
