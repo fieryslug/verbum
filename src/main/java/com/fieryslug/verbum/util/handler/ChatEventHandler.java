@@ -69,7 +69,7 @@ public class ChatEventHandler {
 
             if(message.equals("squid")) {
 
-                InGameUtils.sendEntity(player, new EntitySquid(world), 5.0);
+                InGameUtils.sendEntity(player, new EntitySquid(world), 5.0  );
 
             }
 
