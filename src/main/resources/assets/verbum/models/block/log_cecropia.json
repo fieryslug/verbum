@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"end": "verbum:blocks/log_cecropia_top",
+		"side": "verbum:blocks/log_cecropia"
+	}
+}

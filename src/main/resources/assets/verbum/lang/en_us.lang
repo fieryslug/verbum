@@ -2,6 +2,7 @@ itemGroup.verbum=Verbum
 
 item.ingot_magic_steel.name=Magic Steel Ingot
 item.crystal_precantate.name=Precantate Crystal
+item.powder_precantate.name=Precantate Crystal Powder
 
 item.sword_magic_steel.name=Magic Steel Sword
 item.axe_magic_steel.name=Magic Steel Axe
@@ -18,7 +19,19 @@ item.ancient_tablet.name=Ancient Tablet
 item.ancient_tablet_damp.name=Damp Ancient Tablet
 item.ancient_tablet_parched.name=Parched Ancient Tablet
 
+bricks_basalt.name=Basalt Bricks
+bricks_basalt_cracked.name=Cracked Basalt Bricks
+bricks_basalt_carved.name=Chiseled Basalt Bricks
+bricks_basalt_polished.name=Polished Basalt
+
 tile.block_magic_steel.name=Magic Steel Block
 tile.ore_precantate.name=Precantate Ore
 tile.grass_charred.name=Charred Grass
 tile.basalt.name=Basalt
+tile.bricks_basalt.name=Basalt Bricks
+tile.bricks_basalt_carved.name=Carved Basalt Bricks
+tile.log_cecropia.name=Cecropia Wood
+tile.leaves_cecropia.name=Cecropia Leaves
+tile.plank_cecropia.name=Cecropia Planks
+
+fluid.solution_alchemic=Alchemic Solution

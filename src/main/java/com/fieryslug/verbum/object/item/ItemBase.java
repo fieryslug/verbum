@@ -3,13 +3,7 @@ package com.fieryslug.verbum.object.item;
 import com.fieryslug.verbum.VerbumMod;
 import com.fieryslug.verbum.init.ItemInit;
 import com.fieryslug.verbum.util.IHasModel;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.EnumActionResult;
-import net.minecraft.util.EnumHand;
-import net.minecraft.world.World;
 
 public class ItemBase extends Item implements IHasModel {
 
@@ -25,7 +19,7 @@ public class ItemBase extends Item implements IHasModel {
     @Override
     public void registerModels() {
 
-        VerbumMod.proxy.registerItemRendrer(this, 0, "inventory");
+        VerbumMod.proxy.registerModel(this, 0, "inventory");
 
     }
 }

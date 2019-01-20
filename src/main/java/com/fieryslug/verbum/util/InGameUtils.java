@@ -2,6 +2,7 @@ package com.fieryslug.verbum.util;
 
 
 import com.fieryslug.verbum.Reference;
+import net.darkhax.bookshelf.item.ItemSubType;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.BlockStateBase;
 import net.minecraft.block.state.IBlockState;
@@ -12,8 +13,10 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.Style;
 import net.minecraft.util.text.TextComponentBase;
@@ -49,7 +52,13 @@ public class InGameUtils {
 
     public static void giveItem(EntityPlayer player, Item item, int count) {
 
-        spawnEntity(player.world, new EntityItem(player.world, player.posX, player.posY, player.posZ, new ItemStack(item ,count)));
+        giveItem(player, new ItemStack(item, count));
+
+    }
+
+    public static void giveItem(EntityPlayer player, ItemStack stack) {
+
+        spawnEntity(player.world, new EntityItem(player.world, player.posX, player.posY, player.posZ, stack));
 
     }
 
@@ -66,5 +75,26 @@ public class InGameUtils {
         }, delay);
 
     }
+
+    public static void sendEntity(EntityPlayer player, Entity entity, double speed) {
+
+        World world = player.world;
+        Vec3d vel = player.getLookVec();
+        double x = player.posX + vel.x;
+        double y = player.posY + vel.y;
+        double z = player.posZ + vel.z;
+
+        entity.setPositionAndUpdate(x, y, z);
+        entity.setVelocity(vel.x * speed, vel.y * speed, vel.z * speed);
+        world.spawnEntity(entity);
+
+    }
+
+    public static void propellPlayer(EntityPlayer player, double speed) {
+
+        Vec3d dir = player.getLookVec();
+        player.addVelocity(dir.x * speed, dir.y * speed, dir.z * speed);
+    }
+
 
 }

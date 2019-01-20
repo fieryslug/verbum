@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"axis=y":    { "model": "verbum:log_cecropia" },
+		"axis=z":     { "model": "verbum:log_cecropia", "x": 90 },
+		"axis=x":     { "model": "verbum:log_cecropia", "x": 90, "y": 90 },
+		"axis=none":   { "model": "verbum:bark_cecropia" }
+	}
+}

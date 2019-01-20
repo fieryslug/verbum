@@ -27,7 +27,7 @@ public abstract class VerbumTool extends ItemTool implements IHasModel {
     @Override
     public void registerModels() {
 
-        VerbumMod.proxy.registerItemRendrer(this, 0, "inventory");
+        VerbumMod.proxy.registerModel(this, 0, "inventory");
 
     }
 }

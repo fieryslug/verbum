@@ -1,6 +1,7 @@
 package com.fieryslug.verbum.integration;
 
 
+import com.fieryslug.verbum.init.BlockInit;
 import com.fieryslug.verbum.init.ItemInit;
 import com.fieryslug.verbum.object.item.ItemBase;
 import mezz.jei.api.*;
@@ -10,11 +11,15 @@ import mezz.jei.api.ingredients.IModIngredientRegistration;
 import mezz.jei.api.ingredients.VanillaTypes;
 import mezz.jei.api.recipe.IIngredientType;
 import mezz.jei.api.recipe.IRecipeCategoryRegistration;
+import net.minecraft.block.BlockStone;
+import net.minecraft.block.BlockStoneBrick;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import org.lwjgl.Sys;
 
+import javax.annotation.Nullable;
 import java.util.Collections;
 
 @JEIPlugin
@@ -23,7 +28,6 @@ public class VerbumJEIPlugin implements IModPlugin {
 
     @Override
     public void registerItemSubtypes(ISubtypeRegistry subtypeRegistry) {
-
 
 
     }
@@ -46,8 +50,8 @@ public class VerbumJEIPlugin implements IModPlugin {
     @Override
     public void register(IModRegistry registry) {
 
-        IIngredientBlacklist blacklist = registry.getJeiHelpers().getIngredientBlacklist();
-        blacklist.addIngredientToBlacklist(ItemInit.INGOT_MAGIC_STEEL);
+        //IIngredientBlacklist blacklist = registry.getJeiHelpers().getIngredientBlacklist();
+        //blacklist.addIngredientToBlacklist(ItemInit.INGOT_MAGIC_STEEL);
     }
 
     @Override

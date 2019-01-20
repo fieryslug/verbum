@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"variant=default": { "model": "verbum:bricks_basalt" },
+		"variant=cracked": { "model": "verbum:bricks_basalt_cracked" },
+		"variant=carved": { "model": "verbum:bricks_basalt_carved" },
+		"variant=polished": { "model": "verbum:bricks_basalt_polished"}
+	}
+}

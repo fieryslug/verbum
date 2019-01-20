@@ -5,7 +5,6 @@ import com.fieryslug.verbum.init.BlockInit;
 import com.fieryslug.verbum.init.ItemInit;
 import com.fieryslug.verbum.util.IHasModel;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockOre;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
@@ -60,7 +59,7 @@ public class OrePrecantate extends Block implements IHasModel {
     @Override
     public void registerModels() {
 
-        VerbumMod.proxy.registerItemRendrer(Item.getItemFromBlock(this), 0, "inventory");
+        VerbumMod.proxy.registerModel(Item.getItemFromBlock(this), 0, "inventory");
 
     }
 }

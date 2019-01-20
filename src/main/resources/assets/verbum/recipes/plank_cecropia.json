@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients":
+	[
+		{
+			"item": "verbum:log_cecropia"
+		}
+	],
+	"result":
+	{
+		"item": "verbum:plank_cecropia",
+		"count": 4
+	}
+}

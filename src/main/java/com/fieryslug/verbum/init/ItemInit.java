@@ -4,6 +4,7 @@ import com.fieryslug.verbum.Reference;
 import com.fieryslug.verbum.object.armor.ArmorHelm;
 import com.fieryslug.verbum.object.item.AncientTablet;
 import com.fieryslug.verbum.object.item.ItemBase;
+import com.fieryslug.verbum.object.item.ItemPowder;
 import com.fieryslug.verbum.object.tool.*;
 import com.fieryslug.verbum.util.enumer.EnumCondition;
 import net.minecraft.init.SoundEvents;
@@ -38,8 +39,9 @@ public class ItemInit {
     public static final Item HELM_MAGIC_STEEL = new ArmorHelm(ARMOR_MAGIC_STEEL, 3, "helm_magic_steel");
 
     public static final Item ANCIENT_TABLET = new AncientTablet("ancient_tablet", EnumCondition.NEUTRAL);
-    public static final Item ANCIENT_TABLET_WATER = new AncientTablet("ancient_tablet_damp", EnumCondition.WET);
-    public static final Item ANCIENT_TABLET_FIRE = new AncientTablet("ancient_tablet_parched", EnumCondition.DRY);
+    public static final Item ANCIENT_TABLET_DAMP = new AncientTablet("ancient_tablet_damp", EnumCondition.WET);
+    public static final Item ANCIENT_TABLET_PARCHED = new AncientTablet("ancient_tablet_parched", EnumCondition.DRY);
+    public static final Item POWDER_PRECANTATE = new ItemPowder("powder_precantate");
 
 
 }

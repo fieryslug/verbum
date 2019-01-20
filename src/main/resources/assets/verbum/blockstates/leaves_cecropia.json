@@ -1,0 +1,9 @@
+{
+	"variants":
+	{
+		"check_decay=true,decayable=true": { "model": "verbum:leaves_cecropia" },
+		"check_decay=true,decayable=false": { "model": "verbum:leaves_cecropia" },
+		"check_decay=false,decayable=true": { "model": "verbum:leaves_cecropia" },
+		"check_decay=false,decayable=false": { "model": "verbum:leaves_cecropia" }
+	}
+}

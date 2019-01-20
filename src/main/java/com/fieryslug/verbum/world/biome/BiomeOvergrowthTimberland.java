@@ -7,7 +7,7 @@ public class BiomeOvergrowthTimberland extends Biome {
 
     public BiomeOvergrowthTimberland() {
 
-        super(new BiomeProperties("Overgrowth Timberland").setTemperature(2.5F).setWaterColor(4960422).setRainfall(3.5F).setBaseHeight(1.2F).setHeightVariation(1.2F));
+        super(new BiomeProperties("Overgrowth Timberland").setTemperature(2.5F).setWaterColor(4960422).setRainfall(3.5F).setBaseHeight(-0.3F).setHeightVariation(0.1F));
 
         this.topBlock = Blocks.GRASS.getDefaultState();
         this.fillerBlock = Blocks.COAL_BLOCK.getDefaultState();
